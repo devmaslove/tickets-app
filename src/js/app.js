@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(locations);
   }
   async function onFormSubmit() {
-    // собрать данные из инпутов
+    // собрать данные
     const origin = locations.getCityCodeByKey(formUI.originValue);
     const destination = locations.getCityCodeByKey(formUI.destinationValue);
     const depart_date = formUI.departDate;
